@@ -1,0 +1,66 @@
+body{
+	background-color: rgb(200,200,200);
+}
+#backgroundbox{
+	position: relative;
+	width : 400px;
+	height: 400px;
+	margin: auto;
+	background-image: url(clock.png);
+	background-size: 100%;
+	border: 3px solid orangered;
+	border-radius: 200px;
+}
+
+#hhand,#mhand,#shand{
+
+	position: absolute;
+	border-radius: 10px;
+	transform-origin: bottom;
+}
+
+#hhand{
+	background-color: mediumblue;
+    width: 7px;
+    height: 80px;
+    left: 196.2px;
+    top: 122.5px;
+
+}
+	
+
+
+#mhand{
+	background-color: orange;
+	width: 5px;
+    height: 110px;
+    left: 197.19px;
+    top: 92.4px;
+    
+    
+
+}
+
+#shand{
+	background-color: greenyellow;
+	width: 3px;
+    height: 145px;
+    left: 198.2px;
+    top: 57.7px;
+   
+
+}
+
+#btm{
+	position:absolute;
+	left:850px;	
+	padding-left: 10px;
+	padding-bottom: 9px;
+	width: 400px;
+	height: 55px;
+	background-color: limegreen;
+	border: 3px solid black;
+	border-radius: 3px;
+	opacity: 0.9;
+
+}
